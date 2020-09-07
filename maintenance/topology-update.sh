@@ -19,7 +19,7 @@ LOG_ERROR="[ERR]"
 
 ## Constant values
 
-CNODE_RELAY_HOME="/home/ubuntu/relay"
+CNODE_RELAY_HOME="/home/carldano/relay"	# TODO: make me environment
 
 ############################################################
 
@@ -33,6 +33,8 @@ log()
 }
 
 ############################################################
+
+# TODO: buddy list
 
 log $LOGGER_NAME $LOG_INFO "Request current topology"
 
